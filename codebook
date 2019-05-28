@@ -1,0 +1,17 @@
+The run_analysis.R script will 
+set workdirectory to desktop folder UCI HAR Dataset which containes downloaded and unzipped dataset from URL.
+assign each data to variables
+subject_train <- train/subjuect_train
+x_train <- train/x_train 
+y_train <- train/y_train
+subject_test <- test/subject_test
+x_test <- test/x_test
+y_test <- test/y_test
+x_data containes mergered data from x_train and x_test by using rbind()
+y_data containes mergered data from y_train and y_test by using rbind()
+subject_data containes mergered data from subject_train and subject_test by using rbind()
+x_data_ms only extracted data from desired columns
+y_data used activity name to name the acitivity in the dataset 
+tidy_data is created by combined x_data_ms, y_data and subject_data 
+then we give the according labels for the dataset which make the tide_data 
+we then created a second independent tidy_data called data_new
