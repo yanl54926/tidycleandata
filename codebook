@@ -14,4 +14,5 @@ x_data_ms only extracted data from desired columns
 y_data used activity name to name the acitivity in the dataset 
 tidy_data is created by combined x_data_ms, y_data and subject_data 
 then we give the according labels for the dataset which make the tide_data 
-we then created a second independent tidy_data called data_new
+we then created a second independent tidy_data.txt which is the final product
+
